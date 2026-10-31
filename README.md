@@ -4,10 +4,6 @@
 
 Streaming fictício para treinar segurança de aplicações web na sua própria máquina. O catálogo, as contas, os cupons e o checkout são inventados. Não há serviço real, gateway de pagamento nem cobrança.
 
-<p align="center">
-  <img src="docs/catalogo.png" alt="Catálogo do Flix de Pote com o destaque e a fileira de filmes" width="100%">
-</p>
-
 ## O que é
 
 O Flix de Pote imita uma plataforma de filmes para que seja possível observar, com calma, falhas comuns de autorização e de lógica. Tudo roda em Node.js, com SQLite embutido e uma interface própria. Os filmes, os pôsteres e os nomes são originais.
