@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/banner.svg" alt="Flix de Pote, laboratório local de segurança" width="100%">
+  <img src="docs/banner.png" alt="Flix de Pote, laboratório local de segurança" width="100%">
 </p>
 
 Streaming fictício para treinar segurança de aplicações web na sua própria máquina. O catálogo, as contas, os cupons e o checkout são inventados. Não há serviço real, gateway de pagamento nem cobrança.
