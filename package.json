@@ -9,10 +9,10 @@
   },
   "scripts": {
     "start": "node --disable-warning=ExperimentalWarning server.js",
-    "start:mass-assignment": "LAB_MASS_ASSIGNMENT=true node --disable-warning=ExperimentalWarning server.js",
-    "start:match-replace": "LAB_MATCH_REPLACE=true node --disable-warning=ExperimentalWarning server.js",
-    "start:excessive-data": "LAB_EXCESSIVE_DATA=true node --disable-warning=ExperimentalWarning server.js",
-    "start:race-condition": "LAB_RACE_CONDITION=true node --disable-warning=ExperimentalWarning server.js",
+    "start:mass-assignment": "node scripts/start-lab.js mass-assignment",
+    "start:match-replace": "node scripts/start-lab.js match-replace",
+    "start:excessive-data": "node scripts/start-lab.js excessive-data",
+    "start:race-condition": "node scripts/start-lab.js race-condition",
     "test": "node --disable-warning=ExperimentalWarning --test"
   },
   "dependencies": {
