@@ -70,7 +70,7 @@ Cupons de exemplo: `POTEBEMVINDO` e `NOITEDECINEMA`.
 
 O passo a passo em vídeo sai no canal **Douglas Lockshield**.
 
-**Vídeo em breve.**
+**https://youtu.be/iH16u6cqvp4**
 
 ## Licença
 
