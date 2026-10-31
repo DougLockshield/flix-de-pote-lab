@@ -1,0 +1,16 @@
+node_modules/
+private/
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+data/*.sqlite
+data/*.sqlite3
+.env
+.env.*
+*.log
+npm-debug.log*
+.DS_Store
+coverage/
+*.pem
+*.key

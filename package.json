@@ -1,0 +1,21 @@
+{
+  "name": "flix-de-pote",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Streaming fictício para treinamento local de segurança de aplicações.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.5"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "start:mass-assignment": "LAB_MASS_ASSIGNMENT=true node --disable-warning=ExperimentalWarning server.js",
+    "start:match-replace": "LAB_MATCH_REPLACE=true node --disable-warning=ExperimentalWarning server.js",
+    "start:excessive-data": "LAB_EXCESSIVE_DATA=true node --disable-warning=ExperimentalWarning server.js",
+    "start:race-condition": "LAB_RACE_CONDITION=true node --disable-warning=ExperimentalWarning server.js",
+    "test": "node --disable-warning=ExperimentalWarning --test"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
